@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="icon" href="img/SAIEM-.png" type="image/x-icon">
+    <title>India Santiago</title>
+</head>
+
+
+<body>
+    <!-- I N I C I O -->
+    <section id="inicio">
+        <div class="contenido">
+            <header>
+                <div class="contenido-header">
+                    <h1>
+                        <a href="#inicio">
+                            
+                            <img src="img/SAIEM-.png" alt="Logo India Santiago" class="logo">
+                        </a>
+                    </h1>
+                    <nav id="nav" class="">
+                        <ul id="links">
+                            <li><a href="#inicio" class="seleccionado" onclick="seleccionar(this)">INICIO</a></li>
+                            <li><a href="#sobremi" onclick="seleccionar(this)">SOBRE MI</a></li>
+                            <li><a href="#servicios" onclick="seleccionar(this)">SERVICIOS</a></li>
+                            <li><a href="#Formación_academica" onclick="seleccionar(this)">EDUCACIÓN</a></li>
+                            <li><a href="#experiencia" onclick="seleccionar(this)">EXPERIENCIA</a></li>
+                            
+                        </ul>
+                    </nav>
+                
+                    <!-- Icono del menu responsive -->
+                    <div id="icono-nav" onclick="responsiveMenu()">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+                
+                    <div class="redes">
+                        <a href="https://www.linkedin.com/in/india-santiago-santamaría-921172344/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.instagram.com/indiasantiago__/"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                </div>
+                
+            </header>
+            <div class="presentacion">
+                <p class="bienvenida">Hola!</p>
+                <h2>Soy <span>India Santiago</span></h2>
+                <p class="descripcion">Especialista en estética y belleza</p>
+               <a href="/img/CURRICULUM%20IGNACIO%20BREÑAS%20MUÑOZ.pdf" download>Descargar CV</a>
+
+
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION S O B R E M I -->
+    <section id="sobremi">
+        <div class="contenedor-foto">
+            <img src="img/foto.png" alt="">
+        </div>
+        <div class="sobremi">
+            <p class="titulo-seccion">Sobre Mí</p>
+<h2>Hola, Soy <span>India Santiago</span></h2>
+<h3>Especialista en Estética y Belleza</h3>
+<p>20 años</p>
+<p>Actualmente me especializo en tratamientos estéticos avanzados y tecnología láser aplicada a la belleza.</p>
+<p>Me considero una persona detallista, apasionada por el mundo de la estética y siempre en busca de mejorar mis habilidades.</p>
+<p>Mi objetivo es seguir perfeccionándome en el ámbito de la estética y la aparatología láser, aportando mis conocimientos para ofrecer los mejores resultados a mis clientes.</p>
+
+        </div>
+    </section>
+
+   <!-- SECCION S E R V I C I O S -->
+<section id="servicios">
+    <h3 class="titulo-seccion">MIS SERVICIOS</h3>
+    <div class="fila">
+        <!-- Tratamientos Faciales -->
+        <div class="servicio">
+            <span class="icono"><i class="fa-solid fa-spa"></i></span>
+            <h4>Tratamientos Faciales</h4>
+            <hr>
+            <ul class="servicios-tag">
+                <li>Higiene facial profunda</li>
+            </ul>
+            <p>Especialista en el cuidado de la piel con tratamientos personalizados para cada tipo de piel.</p>
+        </div>
+
+        <!-- Tratamientos Corporales -->
+        <div class="servicio">
+            <span class="icono"><i class="fa-solid fa-leaf"></i></span>
+            <h4>Tratamientos Corporales</h4>
+            <hr>
+            <ul class="servicios-tag">
+                <li>Exfoliaciones</li>
+                <li>Hidrataciones intensivas</li>
+            </ul>
+            <p>Técnicas avanzadas para mejorar la apariencia de la piel y el bienestar corporal.</p>
+        </div>
+
+        <!-- Depilación -->
+        <div class="servicio">
+            <span class="icono"><i class="fa-solid fa-scissors"></i></span>
+            <h4>Depilación</h4>
+            <hr>
+            <ul class="servicios-tag">
+                <li>Depilación </li>
+            </ul>
+            <p>Eliminación eficaz del vello con métodos seguros y duraderos.</p>
+        </div>
+    </div>
+
+    <div class="fila">
+        <!-- Masajes -->
+        <div class="servicio">
+            <span class="icono"><i class="fa-solid fa-hands"></i></span>
+            <h4>Masajes</h4>
+            <hr>
+            <ul class="servicios-tag">
+                <li>Masaje relajante</li>
+                <li>Drenaje linfático</li>
+            </ul>
+            <p>Especialista en técnicas de relajación y bienestar físico.</p>
+        </div>
+
+        <!-- Aparatología Estética -->
+        <div class="servicio">
+            <span class="icono"><i class="fa-solid fa-microchip"></i></span>
+            <h4>Aparatología Estética</h4>
+            <hr>
+            <ul class="servicios-tag">
+                <li>Radiofrecuencia</li>
+                <li>Electroestimulación</li>
+            </ul>
+            <p>Uso de tecnología avanzada para mejorar la estética facial y corporal.</p>
+        </div>
+        <div class="servicio">
+            <span class="icono"><i class="fa-solid fa-brush"></i></span>
+            <h4>Maquillaje Profesional</h4>
+            <hr>
+            <ul class="servicios-tag">
+                <li>Maquillaje </li>
+                <li>Visagismo</li>
+            </ul>
+            <p>Realización de maquillajes adaptados a cada ocasión, resaltando la belleza natural.</p>
+        </div>
+        
+    </div>
+</section>
+
+<!-- F O R M A C I O N  A C A D E M I C A -->
+    <section id="Formación_academica">
+        <h3 class="titulo-seccion">EDUCACIÓN</h3>
+
+        <div class="experiencia-container">
+            <div class="experiencia">
+                <div class="overlay"></div>
+                <img src="img/Logo.libertad.png" alt="Educación Secundaria Obligatoria">
+                <div class="info">
+                    <button class="btn-info" onclick="abrirModal('modal2')">Saber +</button>
+                </div>
+            </div>
+
+            <div class="experiencia">
+                <div class="overlay"></div>
+                <img src="img/Logo.arboleda.png" alt="Grado Medio en Estética y Belleza">
+                <div class="info">
+                    <button class="btn-info" onclick="abrirModal('modal')">Saber +</button>
+                </div>
+            </div>
+        </div>
+        
+        
+        <!-- Modal -->
+        <div id="modalEstetica" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="cerrarModal('modalEstetica')">&times;</span>
+                <h3>Grado Medio en Estética y Belleza</h3>
+                <p><strong>Centro:</strong> IES La Arboleda</p>
+                <p><strong>Especialización:</strong> Tratamientos faciales y corporales, aparatología estética y cuidado de la piel</p>
+                <p><strong>Habilidades adquiridas:</strong></p>
+                <ul>
+                    <li>Aplicación de tratamientos faciales y corporales</li>
+                    <li>Depilación </li>
+                    <li>Masajes y técnicas de relajación</li>
+                    <li>Asesoramiento estético y cuidado de la piel</li>
+                    <li>Uso de aparatología avanzada en estética</li>
+                </ul>
+            </div>
+        </div>
+        
+        <!-- Modal -->
+        <div id="modal4" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="cerrarModal('modal4')">&times;</span>
+                <h3> Educación Secundaria Obligatoria (ESO)</h3>
+                <p><strong>Periodo:</strong> Septiembre 2017 - Junio 2021</p>
+                <p><strong>Centro de Estudios:</strong> IES Libertad</p>
+                <p><strong>Ubicación:</strong> Carranque (Toledo)</p>
+                <p> Etapa educativa obligatoria en España que proporciona conocimientos básicos
+                     y competencias generales para continuar estudios o acceder al mundo laboral.</p>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION FOOTER -->
+    <footer>
+        <p>SAIEM 2025</p>
+        <div class="redes">
+            <a href="https://www.linkedin.com/in/india-santiago-santamaría-921172344/"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://www.instagram.com/indiasantiago__/"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+        
+
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
